@@ -1,0 +1,29 @@
+﻿# idea运行的中间文件
+.idea/
+*.iml
+*/*.iml
+
+# eclipse运行的中间文件
+*.project
+*.classpath
+.settings/*
+*/.settings/*
+**/.settings/*
+*.factorypath
+.metadata/
+.recommenders/
+
+# SpringToolSuite工具的文件
+Servers/
+
+# 工程运行的中间文件
+*/logs/*
+**/WEB-INF/temp/*
+*/target/
+**/target/
+*.log
+*.bak
+
+# jvm挂掉后的临时文件
+hs_err_pid*
+
